@@ -12,7 +12,8 @@ paths:
     get:
       tags:
       - Parking
-      summary: "Get the last state of a given parking space UUID"
+      summary: "Get the last state of a given parking space UUID."
+      description: "Parking space UUID can be obtained from the Swarm Control Center"
       produces:
       - "application/json"
       parameters:
@@ -50,6 +51,7 @@ paths:
       tags:
       - Traffic Monitoring
       summary: "Get traffic flows from Entry Zone to Exit Zone for a given time window"
+      description: "Entry-zone and exit-zone UUID can be obtained from the Swarm Control Center"
       parameters:
       - name: "entryZone"
         in: "query"
