@@ -36,7 +36,7 @@ paths:
                 "regionOfInterestEvent": {
                   "objects": [
                     {
-                      "class": "person"
+                      "class": "car"
                     }
                   ],
                   "roiId": "69031920-6239-471e-a3d7-f241b7753fd0",
